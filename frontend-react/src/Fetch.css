@@ -1,0 +1,44 @@
+/* Styling for the Employee Table */
+.book-table-container {
+ min-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    position: absolute;
+    top: 60px;
+    width: 50vw;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 8px 8px 5px 8px #561414;  }
+  
+  .book-table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .book-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .book-table-container th,
+  .book-table-container td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .book-table-container th {
+    background-color: #313131;
+    color: white;
+  }
+  
+  .employee-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .employee-table-container tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
